@@ -164,7 +164,7 @@ export default {
       axios.post(path, payload)
         .then(() => {
           this.getBooks();
-          this.message = 'Book added!';
+          this.message = 'Book added!!';
           this.showMessage = true;
         })
         .catch((error) => {
